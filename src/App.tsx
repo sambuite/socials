@@ -50,14 +50,18 @@ function App() {
 
   return (
     <div className="">
-      <div className="w-fit mx-auto border border-slate-800">
+      <div className="w-full lg:w-fit mx-auto">
         <div className="flex flex-col items-center mt-10">
           <img
             src="https://github.com/sambuite.png"
             alt=""
             className="rounded-full w-40 h-40"
           />
-          <h1 className="text-3xl mt-10">Murilo</h1>
+          <h1 className="text-2xl font-semibold mt-10">Murilo Sambuite</h1>
+          <span className="text-lg">@sambuite</span>
+          <span className="mt-6 text-sm text-slate-400">
+            Desenvolvedor Frontend
+          </span>
         </div>
 
         <div className="mt-10">

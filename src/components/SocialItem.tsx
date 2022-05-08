@@ -9,7 +9,7 @@ interface Props {
 export function SocialItem({ name, link, children }: Props) {
   return (
     <a
-      className="flex mx-auto items-center p-4 sm:w-96 border-t border-slate-800 group"
+      className="flex mx-auto items-center p-4 sm:w-96 border-t border-slate-700 group first:border-t-0"
       href={link}
       target="_blank"
     >
