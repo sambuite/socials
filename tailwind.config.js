@@ -7,6 +7,11 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        main: {
+          500: '#4266B8',
+        },
+      },
     },
   },
   plugins: [],
