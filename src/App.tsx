@@ -10,7 +10,7 @@ import { LinkItem } from './components/LinkItem';
 const links = [
   {
     name: 'Portfolio',
-    link: 'https://portfolio-sambuite.vercel.app',
+    link: 'https://murilosambuite.com',
   },
 ];
 
