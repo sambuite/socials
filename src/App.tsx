@@ -32,37 +32,37 @@ function App() {
         </span>
       </div>
 
-      <div className="flex items-center justify-center mt-5 h-12">
+      <div className="flex items-center justify-around w-9/12 sm:w-1/2 mx-auto mt-5 h-12">
         <a
           className="group"
           href="https://www.linkedin.com/in/murilosambuite/"
           target="_blank"
         >
-          <LinkedinLogo className="w-10 h-10 mr-5 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
+          <LinkedinLogo className="w-10 h-10 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
         </a>
         <a className="group" href="https://github.com/sambuite" target="_blank">
-          <GithubLogo className="w-10 h-10 mr-5 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
+          <GithubLogo className="w-10 h-10 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
         </a>
         <a
           className="group"
           href="https://open.spotify.com/user/22cpeuchmgltmldtoz3vb4cba"
           target="_blank"
         >
-          <SpotifyLogo className="w-10 h-10 mr-5 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
+          <SpotifyLogo className="w-10 h-10 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
         </a>
         <a
           className="group"
           href="https://www.instagram.com/sambuite_"
           target="_blank"
         >
-          <InstagramLogo className="w-10 h-10 mr-5 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
+          <InstagramLogo className="w-10 h-10 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
         </a>
         <a
           className="group"
           href="https://www.tiktok.com/@sambuite"
           target="_blank"
         >
-          <TiktokLogo className="w-10 h-10 mr-5 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
+          <TiktokLogo className="w-10 h-10 text-main-500 cursor-pointer group-hover:w-11 group-hover:h-11 transition-all" />
         </a>
       </div>
 
